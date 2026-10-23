@@ -1,6 +1,6 @@
 # Nandin Dev Pack
 
-Free, official agents for [Nandin](https://vaultdb.ai). They stay free. No account and no key beyond your own model key.
+Official agents for [Nandin](https://vaultdb.ai). No account and no key beyond your own model key.
 
 | Agent           | What it does                                                                     | Status   |
 | --------------- | -------------------------------------------------------------------------------- | -------- |
@@ -12,4 +12,4 @@ Each agent's `instructions.md` is yours to edit: it holds your rules, while `ski
 
 `examples/my-work-notes/` is a sample notes folder to try My Work with.
 
-Licensed under Apache-2.0.
+Licence: not decided yet (free for up to five users, paid beyond that, is the plan). All rights reserved until then.
