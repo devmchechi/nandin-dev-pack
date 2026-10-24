@@ -12,4 +12,4 @@ Each agent's `instructions.md` is yours to edit: it holds your rules, while `ski
 
 `examples/my-work-notes/` is a sample notes folder to try My Work with.
 
-Licence: not decided yet (free for up to five users, paid beyond that, is the plan). All rights reserved until then.
+Licence: not decided yet (free for up to five users, paid beyond that, is the plan). See LICENSE: all rights reserved until then, except installing and running the agents in Nandin.
