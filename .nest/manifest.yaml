@@ -1,6 +1,6 @@
 id: dev-pack
 name: Nandin Dev Pack
-description: Official agents from Nandin. My Work answers questions about your job from your own notes; PR Reviewer reviews pull requests against your rules; AWS Ops Analyst follows.
-version: 0.1.0
+description: Official agents from Nandin. My Work is your representative on your team; PR Reviewer reviews pull requests against your rules. AWS Ops Analyst follows.
+version: 0.2.0
 min_nest_version: 0.1.0
 agents: [my-work, pr-reviewer]

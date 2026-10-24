@@ -4,7 +4,7 @@ Official agents for [Nandin](https://vaultdb.ai). No account and no key beyond y
 
 | Agent           | What it does                                                                     | Status   |
 | --------------- | -------------------------------------------------------------------------------- | -------- |
-| My Work         | Answers questions about your role, owners, deadlines and processes from your notes | Preview  |
+| My Work         | Your representative on your team: finds who is responsible, asks and assigns with your approval, tracks requests, answers for you | Preview  |
 | PR Reviewer     | Reviews a pull request (private repos too) against your rules and posts the review after approval | Preview  |
 | AWS Ops Analyst | Investigates failed jobs and alarms and proposes fixes you approve               | Planned  |
 
