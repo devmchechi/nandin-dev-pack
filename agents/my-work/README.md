@@ -3,6 +3,7 @@
 Your representative on your team. Teams get work done by finding who is responsible for something, asking them, handing them work and following up. My Work does that with you, and answers for you when other people ask.
 
 - **"Who's responsible for the SOX audit?"** It searches, live, what everyone connected to your Nandin relay publishes about themselves: their responsibilities, profile and agents. It says who matched, why, and whether they're online.
+- **"Who can review my PR on vaultdb?"** It finds people whose responsibilities mention vaultdb and who have a review agent, and offers to send the PR to one of them or to all of them.
 - **"Ask Lena for the SOC 1 evidence by Friday."** It finds Lena and writes the request. After you approve, it sends the request to Lena's Nandin, where her My Work answers or holds it for her.
 - **"What am I waiting on?" / "What did people ask me?"** It lists open requests both ways, with status.
 - **Questions about you.** When a teammate's agent asks "what does Dev own?", your My Work answers from your role and notes. Work someone assigns you waits for your approval.
@@ -27,6 +28,7 @@ Docker must be running.
 
 - "Who is responsible for Risk?"
 - "List everyone on my network and what they own."
+- "Who can review my pull request on vaultdb?" then "Ask all of them" or "Ask whoever is online."
 - "Ask the SOC 1 owner for last quarter's evidence."
 - "Assign Sam: rotate the CI deploy keys by Friday."
 - "What am I waiting on?"

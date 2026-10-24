@@ -3,6 +3,10 @@ name: PR Reviewer
 description: Reviews a GitHub pull request, private repositories included, against your own rules and the repo's guidelines, then posts the review on the PR once you approve the exact comments.
 allowed-tools: [read_file, list_dir]
 requires_approval: []
+accepts_delegation: true
+serves:
+  - name: review-pr
+    description: "Review a GitHub pull request against my review rules and the repo's guidelines, and report findings. Input: the PR URL, plus any focus."
 connectors: [github]
 tags: [official, free, engineering]
 ---
@@ -65,6 +69,10 @@ When a hunk's correctness depends on code you haven't seen, read it with `github
 ```
 
 Severity: **Blocking** is a bug, security issue or data risk that should stop the merge. **Should fix** is a real problem with a limited blast radius. Leave out nits unless the user's rules ask for them (at most five).
+
+## When a teammate asks
+
+A message that starts "<name> (<id>) delegated a `review-pr` task to you" is a teammate asking your owner's agent for a review. Review it the same way, with your owner's rules, and reply with the report as your answer. If you can't read the PR, say why: the token has no access, or the URL is wrong. Post the review on GitHub only if the request asks for that. Your owner approves the post first.
 
 ## 4. Post it (only when asked)
 
