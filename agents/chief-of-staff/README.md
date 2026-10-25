@@ -6,12 +6,13 @@ Your representative on your team. Teams get work done by finding who is responsi
 - **"Who can review my PR on vaultdb?"** It finds people whose responsibilities mention vaultdb and who have a review agent, and offers to send the PR to one of them or to all of them.
 - **"Ask Lena for the SOC 1 evidence by Friday."** It finds Lena and writes the request. After you approve, it sends the request to Lena's Nandin, where her Chief of Staff answers or holds it for her.
 - **"What am I waiting on?" / "What did people ask me?"** It lists open requests both ways, with status.
-- **Questions about you.** When a teammate's agent asks "what does Dev own?", your Chief of Staff answers from your role and notes. Work someone assigns you waits for your approval.
+- **"Assign Sam: rotate the CI deploy keys, due Friday."** After you approve, it's on Sam's list: his Inbox shows it with the due date until he marks it Done (his note comes back to you) or Declines it. You don't wait for it, and it lasts for days, even if one of you goes offline.
+- **Questions about you.** When a teammate's agent asks "what does Dev own?", your Chief of Staff answers from your role and notes. Work someone assigns you waits for your approval, then stays in your Inbox until you click Done or Decline.
 - **Questions about your own work** ("What's due this week?") are answered from your notes, with sources.
 
 ## Set it up
 
-1. **Your role.** Open the agent's Instructions tab and fill in `instructions.md`: title, team, what you own, recurring duties and who to escalate to.
+1. **Your role.** Open the agent's **Settings › Your rules** and fill them in: title, team, what you own, recurring duties and who to escalate to. Updates to this pack keep them.
 2. **Your responsibilities, so others can find you.** In your `NANDIN.md` (Settings › Gateway, or the file in your agents repo), list them:
    ```yaml
    responsibilities: [CI/CD, AWS accounts, on-call rota, SOX IT controls]
@@ -30,7 +31,7 @@ Docker must be running.
 - "List everyone on my network and what they own."
 - "Who can review my pull request on vaultdb?" then "Ask all of them" or "Ask whoever is online."
 - "Ask the SOC 1 owner for last quarter's evidence."
-- "Assign Sam: rotate the CI deploy keys by Friday."
+- "Assign Sam: rotate the CI deploy keys, due Friday."
 - "What am I waiting on?"
 - "What's due this week?"
 
@@ -40,6 +41,6 @@ Docker must be running.
 | -------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Reads your network's profiles    | Finding who is responsible, from what people publish on your relay                             |
 | Sends requests (asks first)      | Asking people and assigning work, each request approved by you                                 |
-| Answers for you                  | Questions about your work (`ask-me`). Work assigned to you (`assign-me`) waits for your approval |
+| Answers for you                  | Questions about your work (`ask-me`). Work assigned to you (`assign-me`) waits for your approval, then for your Done or Decline |
 | Reads your shared notes          | The `my-notes` folder, read only                                                                |
 | Writes files or runs commands    | No                                                                                             |

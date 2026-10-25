@@ -10,7 +10,7 @@ It works on private repositories. Your GitHub token stays on your computer: the 
 
 1. **A GitHub token.** Create a [fine-grained personal access token](https://github.com/settings/personal-access-tokens/new) for the repositories you want reviewed, with the permissions **Contents: Read** and **Pull requests: Read and write**. (Read-only is enough if you never post reviews.)
 2. **The GitHub connector.** In Library › Tools › GitHub, choose Install. In Setup, paste the token, then Start.
-3. **Your rules.** Open the agent's Instructions tab and edit `instructions.md`.
+3. **Your rules.** Open the agent's **Settings › Your rules** and add yours ("flag every TODO"). Updates to this pack keep them.
 
 Docker must be running.
 
