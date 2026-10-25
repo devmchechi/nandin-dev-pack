@@ -9,6 +9,7 @@ Your representative on your team. Teams get work done by finding who is responsi
 - **"Assign Sam: rotate the CI deploy keys, due Friday."** After you approve, it's on Sam's list: his Inbox shows it with the due date until he marks it Done (his note comes back to you) or Declines it. You don't wait for it, and it lasts for days, even if one of you goes offline.
 - **Questions about you.** When a teammate's agent asks "what does Dev own?", your Chief of Staff answers from your role and notes. Work someone assigns you waits for your approval, then stays in your Inbox until you click Done or Decline.
 - **Questions about your own work** ("What's due this week?") are answered from your notes, with sources.
+- **It keeps your notes.** Say hello and it gets to know you: a few questions about your role, what you own, what's due and who you work with, organized into notes you can read and edit on the **My notes** page. After that, tell it things as they happen ("the walkthrough moved to Nov 19") and it files them, then points out what's coming up or overdue.
 
 ## Set it up
 
@@ -21,7 +22,7 @@ Your representative on your team. Teams get work done by finding who is responsi
    ```
    Your Nandin publishes these with your profile on the relay.
 3. **Be reachable.** Turn the gateway on and connect to your team's relay. To share your `NANDIN.md` text as well, make your profile discoverable.
-4. **Your notes (optional).** In Library › Tools › Filesystem › Setup, add your notes folder with the short name `my-notes`, Read only. To try it, use `examples/my-notes/` from this pack.
+4. **Your notes.** Open **My notes**: Nandin creates your notes folder and shares it with Chief of Staff. Keep **Let Chief of Staff keep them up to date** on so it can file what it learns without asking each time. To try it with sample notes, copy `examples/my-notes/` into that folder.
 
 Docker must be running.
 
@@ -42,5 +43,5 @@ Docker must be running.
 | Reads your network's profiles    | Finding who is responsible, from what people publish on your relay                             |
 | Sends requests (asks first)      | Asking people and assigning work, each request approved by you                                 |
 | Answers for you                  | Questions about your work (`ask-me`). Work assigned to you (`assign-me`) waits for your approval, then for your Done or Decline |
-| Reads your shared notes          | The `my-notes` folder, read only                                                                |
+| Reads and keeps your notes       | The `my-notes` folder. It writes there only while My notes allows it, without asking each time  |
 | Writes files or runs commands    | No                                                                                             |
