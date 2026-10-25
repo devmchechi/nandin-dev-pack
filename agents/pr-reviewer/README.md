@@ -2,7 +2,7 @@
 
 Reviews a GitHub pull request against **your** rules first, then the repo's own guidelines (`REVIEW.md`, `CONTRIBUTING.md`, `AGENTS.md`, `CLAUDE.md`). It reports a verdict and findings, most severe first, each with a file and line, the rule it breaks, why it matters and a fix. When you say "post it", it posts the review on the PR as inline comments, after you approve the exact comments.
 
-Teammates can ask it for a review too. Their My Work finds it on your Nandin and sends the PR to it (`review-pr`), and it reviews the PR with your rules and your token.
+Teammates can ask it for a review too. Their Chief of Staff finds it on your Nandin and sends the PR to it (`review-pr`), and it reviews the PR with your rules and your token.
 
 It works on private repositories. Your GitHub token stays on your computer: the GitHub calls run in Nandin, not in the agent's container.
 
